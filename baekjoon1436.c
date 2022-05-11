@@ -12,10 +12,11 @@ int main(void) {
 
 	for (int i = 0; i < 1000000; i++) {
 
-		int a, b;
+		int a, b, c;
 		a = 10;
 		b = 1;
-
+		c = 100;
+		
 		for (int j = 0; j < 10; j++) {
 			digit[j] = (i % a) / b;
 			a *= 10;
